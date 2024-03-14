@@ -1,0 +1,675 @@
+ability_id,local_language_id,name
+1,8,Tanfo
+1,9,Stench
+2,8,Piovischio
+2,9,Drizzle
+3,8,Acceleratore
+3,9,Speed Boost
+4,8,Lottascudo
+4,9,Battle Armor
+5,8,Vigore
+5,9,Sturdy
+6,8,Umidità
+6,9,Damp
+7,8,Scioltezza
+7,9,Limber
+8,8,Sabbiavelo
+8,9,Sand Veil
+9,8,Statico
+9,9,Static
+10,8,Assorbivolt
+10,9,Volt Absorb
+11,8,Assorbacqua
+11,9,Water Absorb
+12,8,Indifferenza
+12,9,Oblivious
+13,8,Antimeteo
+13,9,Cloud Nine
+14,8,Insettocchi
+14,9,Compound Eyes
+15,8,Insonnia
+15,9,Insomnia
+16,8,Cambiacolore
+16,9,Color Change
+17,8,Immunità
+17,9,Immunity
+18,8,Fuocardore
+18,9,Flash Fire
+19,8,Polvoscudo
+19,9,Shield Dust
+20,8,Mente Locale
+20,9,Own Tempo
+21,8,Ventose
+21,9,Suction Cups
+22,8,Prepotenza
+22,9,Intimidate
+23,8,Pedinombra
+23,9,Shadow Tag
+24,8,Cartavetro
+24,9,Rough Skin
+25,8,Magidifesa
+25,9,Wonder Guard
+26,8,Levitazione
+26,9,Levitate
+27,8,Spargispora
+27,9,Effect Spore
+28,8,Sincronismo
+28,9,Synchronize
+29,8,Corpochiaro
+29,9,Clear Body
+30,8,Alternacura
+30,9,Natural Cure
+31,8,Parafulmine
+31,9,Lightning Rod
+32,8,Leggiadro
+32,9,Serene Grace
+33,8,Nuotovelox
+33,9,Swift Swim
+34,8,Clorofilla
+34,9,Chlorophyll
+35,8,Risplendi
+35,9,Illuminate
+36,8,Traccia
+36,9,Trace
+37,8,Macroforza
+37,9,Huge Power
+38,8,Velenopunto
+38,9,Poison Point
+39,8,Forza Interiore
+39,9,Inner Focus
+40,8,Magmascudo
+40,9,Magma Armor
+41,8,Idrovelo
+41,9,Water Veil
+42,8,Magnetismo
+42,9,Magnet Pull
+43,8,Antisuono
+43,9,Soundproof
+44,8,Copripioggia
+44,9,Rain Dish
+45,8,Sabbiafiume
+45,9,Sand Stream
+46,8,Pressione
+46,9,Pressure
+47,8,Grassospesso
+47,9,Thick Fat
+48,8,Sveglialampo
+48,9,Early Bird
+49,8,Corpodifuoco
+49,9,Flame Body
+50,8,Fugafacile
+50,9,Run Away
+51,8,Sguardofermo
+51,9,Keen Eye
+52,8,Ipertaglio
+52,9,Hyper Cutter
+53,8,Raccolta
+53,9,Pickup
+54,8,Pigrone
+54,9,Truant
+55,8,Tuttafretta
+55,9,Hustle
+56,8,Incantevole
+56,9,Cute Charm
+57,8,Più
+57,9,Plus
+58,8,Meno
+58,9,Minus
+59,8,Previsioni
+59,9,Forecast
+60,8,Antifurto
+60,9,Sticky Hold
+61,8,Muta
+61,9,Shed Skin
+62,8,Dentistretti
+62,9,Guts
+63,8,Pelledura
+63,9,Marvel Scale
+64,8,Melma
+64,9,Liquid Ooze
+65,8,Erbaiuto
+65,9,Overgrow
+66,8,Aiutofuoco
+66,9,Blaze
+67,8,Acquaiuto
+67,9,Torrent
+68,8,Aiutinsetto
+68,9,Swarm
+69,8,Testadura
+69,9,Rock Head
+70,8,Siccità
+70,9,Drought
+71,8,Trappoarena
+71,9,Arena Trap
+72,8,Spiritovivo
+72,9,Vital Spirit
+73,8,Fumochiaro
+73,9,White Smoke
+74,8,Forzapura
+74,9,Pure Power
+75,8,Guscioscudo
+75,9,Shell Armor
+76,8,Riparo
+76,9,Air Lock
+77,8,Intricopiedi
+77,9,Tangled Feet
+78,8,Elettrorapid
+78,9,Motor Drive
+79,8,Antagonismo
+79,9,Rivalry
+80,8,Cuordeciso
+80,9,Steadfast
+81,8,Mantelneve
+81,9,Snow Cloak
+82,8,Voracità
+82,9,Gluttony
+83,8,Grancollera
+83,9,Anger Point
+84,8,Agiltecnica
+84,9,Unburden
+85,8,Antifuoco
+85,9,Heatproof
+86,8,Disinvoltura
+86,9,Simple
+87,8,Pellearsa
+87,9,Dry Skin
+88,8,Download
+88,9,Download
+89,8,Ferropugno
+89,9,Iron Fist
+90,8,Velencura
+90,9,Poison Heal
+91,8,Adattabilità
+91,9,Adaptability
+92,8,Abillegame
+92,9,Skill Link
+93,8,Idratazione
+93,9,Hydration
+94,8,Solarpotere
+94,9,Solar Power
+95,8,Piedisvelti
+95,9,Quick Feet
+96,8,Normalità
+96,9,Normalize
+97,8,Cecchino
+97,9,Sniper
+98,8,Magicscudo
+98,9,Magic Guard
+99,8,Nullodifesa
+99,9,No Guard
+100,8,Rallentatore
+100,9,Stall
+101,8,Tecnico
+101,9,Technician
+102,8,Fogliamanto
+102,9,Leaf Guard
+103,8,Impaccio
+103,9,Klutz
+104,8,Rompiforma
+104,9,Mold Breaker
+105,8,Supersorte
+105,9,Super Luck
+106,8,Scoppio
+106,9,Aftermath
+107,8,Presagio
+107,9,Anticipation
+108,8,Premonizione
+108,9,Forewarn
+109,8,Imprudenza
+109,9,Unaware
+110,8,Lentifumé
+110,9,Tinted Lens
+111,8,Filtro
+111,9,Filter
+112,8,Lentoinizio
+112,9,Slow Start
+113,8,Nervisaldi
+113,9,Scrappy
+114,8,Acquascolo
+114,9,Storm Drain
+115,8,Corpogelo
+115,9,Ice Body
+116,8,Solidroccia
+116,9,Solid Rock
+117,8,Scendineve
+117,9,Snow Warning
+118,8,Mielincetta
+118,9,Honey Gather
+119,8,Indagine
+119,9,Frisk
+120,8,Temerarietà
+120,9,Reckless
+121,8,Multitipo
+121,9,Multitype
+122,8,Regalfiore
+122,9,Flower Gift
+123,8,Sogniamari
+123,9,Bad Dreams
+124,8,Arraffalesto
+124,9,Pickpocket
+125,8,Forzabruta
+125,9,Sheer Force
+126,8,Inversione
+126,9,Contrary
+127,8,Agitazione
+127,9,Unnerve
+128,8,Agonismo
+128,9,Defiant
+129,8,Sconforto
+129,9,Defeatist
+130,8,Corpofunesto
+130,9,Cursed Body
+131,8,Curacuore
+131,9,Healer
+132,8,Amicoscudo
+132,9,Friend Guard
+133,8,Sottilguscio
+133,9,Weak Armor
+134,8,Metalpesante
+134,9,Heavy Metal
+135,8,Metalleggero
+135,9,Light Metal
+136,8,Multisquame
+136,9,Multiscale
+137,8,Velenimpeto
+137,9,Toxic Boost
+138,8,Bruciaimpeto
+138,9,Flare Boost
+139,8,Coglibacche
+139,9,Harvest
+140,8,Telepatia
+140,9,Telepathy
+141,8,Altalena
+141,9,Moody
+142,8,Copricapo
+142,9,Overcoat
+143,8,Velentocco
+143,9,Poison Touch
+144,8,Rigenergia
+144,9,Regenerator
+145,8,Pettinfuori
+145,9,Big Pecks
+146,8,Remasabbia
+146,9,Sand Rush
+147,8,Splendicute
+147,9,Wonder Skin
+148,8,Ponderazione
+148,9,Analytic
+149,8,Illusione
+149,9,Illusion
+150,8,Sosia
+150,9,Imposter
+151,8,Intrapasso
+151,9,Infiltrator
+152,8,Mummia
+152,9,Mummy
+153,8,Arroganza
+153,9,Moxie
+154,8,Giustizia
+154,9,Justified
+155,8,Paura
+155,9,Rattled
+156,8,Magispecchio
+156,9,Magic Bounce
+157,8,Mangiaerba
+157,9,Sap Sipper
+158,8,Burla
+158,9,Prankster
+159,8,Silicoforza
+159,9,Sand Force
+160,8,Spineferrate
+160,9,Iron Barbs
+161,8,Stato Zen
+161,9,Zen Mode
+162,8,Vittorstella
+162,9,Victory Star
+163,8,Piroturbina
+163,9,Turboblaze
+164,8,Teravolt
+164,9,Teravolt
+165,8,Aromavelo
+165,9,Aroma Veil
+166,8,Fiorvelo
+166,9,Flower Veil
+167,8,Guancegonfie
+167,9,Cheek Pouch
+168,8,Mutatipo
+168,9,Protean
+169,8,Foltopelo
+169,9,Fur Coat
+170,8,Prestigiatore
+170,9,Magician
+171,8,Antiproiettile
+171,9,Bulletproof
+172,8,Tenacia
+172,9,Competitive
+173,8,Ferromascella
+173,9,Strong Jaw
+174,8,Pellegelo
+174,9,Refrigerate
+175,8,Dolcevelo
+175,9,Sweet Veil
+176,8,Accendilotta
+176,9,Stance Change
+177,8,Aliraffica
+177,9,Gale Wings
+178,8,Megalancio
+178,9,Mega Launcher
+179,8,Peloderba
+179,9,Grass Pelt
+180,8,Simbiosi
+180,9,Symbiosis
+181,8,Unghiedure
+181,9,Tough Claws
+182,8,Pellefolletto
+182,9,Pixilate
+183,8,Viscosità
+183,9,Gooey
+184,8,Pellecielo
+184,9,Aerilate
+185,8,Amorefiliale
+185,9,Parental Bond
+186,8,Auratetra
+186,9,Dark Aura
+187,8,Aurafolletto
+187,9,Fairy Aura
+188,8,Frangiaura
+188,9,Aura Break
+189,8,Mare Primordiale
+189,9,Primordial Sea
+190,8,Terra Estrema
+190,9,Desolate Land
+191,8,Flusso Delta
+191,9,Delta Stream
+192,8,Sopportazione
+192,9,Stamina
+193,8,Fuggifuggi
+193,9,Wimp Out
+194,8,Passoindietro
+194,9,Emergency Exit
+195,8,Idrorinforzo
+195,9,Water Bubble
+196,8,Spietatezza
+196,9,Merciless
+197,8,Scudosoglia
+197,9,Shields Down
+198,8,Sorveglianza
+198,9,Stakeout
+199,8,Bolladacqua
+199,9,Water Bubble
+200,8,Tempracciaio
+200,9,Steelworker
+201,8,Furore
+201,9,Berserk
+202,8,Spalaneve
+202,9,Slush Rush
+203,8,Distacco
+203,9,Long Reach
+204,8,Idrovoce
+204,9,Liquid Voice
+205,8,Primacura
+205,9,Triage
+206,8,Pellelettro
+206,9,Galvanize
+207,8,Codasurf
+207,9,Surge Surfer
+208,8,Banco
+208,9,Schooling
+209,8,Fantasmanto
+209,9,Disguise
+210,8,Morfosintonia
+210,9,Battle Bond
+211,8,Sciamefusione
+211,9,Power Construct
+212,8,Corrosione
+212,9,Corrosion
+213,8,Sonno Assoluto
+213,9,Comatose
+214,8,Regalità
+214,9,Queenly Majesty
+215,8,Espellinterno
+215,9,Innards Out
+216,8,Sincrodanza
+216,9,Dancer
+217,8,Batteria
+217,9,Battery
+218,8,Morbidone
+218,9,Fluffy
+219,8,Corposgargiante
+219,9,Dazzling
+220,8,Cuoreanima
+220,9,Soul-Heart
+221,8,Boccolidoro
+221,9,Tangling Hair
+222,8,Ricezione
+222,9,Receiver
+223,8,Forza Chimica
+223,9,Power of Alchemy
+224,8,Ultraboost
+224,9,Beast Boost
+225,8,Sistema Primevo
+225,9,RKS System
+226,8,Elettrogenesi
+226,9,Electric Surge
+227,8,Psicogenesi
+227,9,Psychic Surge
+228,8,Nebbiogenesi
+228,9,Misty Surge
+229,8,Erbogenesi
+229,9,Grassy Surge
+230,8,Metalprotezione
+230,9,Full Metal Body
+231,8,Spettroguardia
+231,9,Shadow Shield
+232,8,Scudoprisma
+232,9,Prism Armor
+233,8,Cerebroforza
+233,9,Neuroforce
+234,8,Spada Indomita
+234,9,Intrepid Sword
+235,8,Scudo Saldo
+235,9,Dauntless Shield
+236,8,Libero
+236,9,Libero
+237,8,Raccattapalle
+237,9,Ball Fetch
+238,8,Lanugine
+238,9,Cotton Down
+239,8,Elicopinna
+239,9,Propeller Tail
+240,8,Blindospecchio
+240,9,Mirror Armor
+241,8,Inghiottimissile
+241,9,Gulp Missile
+242,8,Volontà di Ferro
+242,9,Stalwart
+243,8,Vapormacchina
+243,9,Steam Engine
+244,8,Punk Rock
+244,9,Punk Rock
+245,8,Sputasabbia
+245,9,Sand Spit
+246,8,Geloscaglie
+246,9,Ice Scales
+247,8,Maturazione
+247,9,Ripen
+248,8,Gelofaccia
+248,9,Ice Face
+249,8,Fonte Energetica
+249,9,Power Spot
+250,8,Mimetismo
+250,9,Mimicry
+251,8,Annullabarriere
+251,9,Screen Cleaner
+252,8,Spiritoferreo
+252,9,Steely Spirit
+253,8,Ultimotocco
+253,9,Perish Body
+254,8,Anima Errante
+254,9,Wandering Spirit
+255,8,Vigorilla
+255,9,Gorilla Tactics
+256,8,Gas Reagente
+256,9,Neutralizing Gas
+257,8,Pastelvelo
+257,9,Pastel Veil
+258,8,Pancialterna
+258,9,Hunger Switch
+259,8,Colpolesto
+259,9,Quick Draw
+260,8,Pugni Invisibili
+260,9,Unseen Fist
+261,8,Stranofarmaco
+261,9,Curious Medicine
+262,8,Transistor
+262,9,Transistor
+263,8,Dragomascelle
+263,9,Dragon’s Maw
+264,8,Nitrito Bianco
+264,9,Chilling Neigh
+265,8,Nitrito Nero
+265,9,Grim Neigh
+266,8,Sintonia Equina
+266,9,As One
+267,8,Sintonia Equina
+267,9,As One
+268,8,Odore Tenace
+268,9,Lingering Aroma
+269,8,Spargisemi
+269,9,Seed Sower
+270,8,Termoscambio
+270,9,Thermal Exchange
+271,8,Iraguscio
+271,9,Anger Shell
+272,8,Sale Purificante
+272,9,Purifying Salt
+273,8,Bentostato
+273,9,Well-Baked Body
+274,8,Vento Propizio
+274,9,Wind Rider
+275,8,Cane da Guardia
+275,9,Guard Dog
+276,8,Portamassi
+276,9,Rocky Payload
+277,8,Energia Eolica
+277,9,Wind Power
+278,8,Supercambio
+278,9,Zero to Hero
+279,8,Commander
+279,9,Commander
+280,8,Convertivolt
+280,9,Electromorphosis
+281,8,Paleoattivazione
+281,9,Protosynthesis
+282,8,Carica Quark
+282,9,Quark Drive
+283,8,Corpo Aureo
+283,9,Good as Gold
+284,8,Vaso Nefasto
+284,9,Vessel of Ruin
+285,8,Spada Nefasta
+285,9,Sword of Ruin
+286,8,Amuleto Nefasto
+286,9,Tablets of Ruin
+287,8,Monile Nefasto
+287,9,Beads of Ruin
+288,8,Ritmo d’Oricalco
+288,9,Orichalcum Pulse
+289,8,Motore Adronico
+289,9,Hadron Engine
+290,8,Scrocco
+290,9,Opportunist
+291,8,Ruminante
+291,9,Cud Chew
+292,8,Affilama
+292,9,Sharpness
+293,8,Generale Supremo
+293,9,Supreme Overlord
+294,8,Costar
+294,9,Costar
+295,8,Mantossina
+295,9,Toxic Debris
+296,8,Codarmatura
+296,9,Armor Tail
+297,8,Mangiaterra
+297,9,Earth Eater
+298,8,Micoforza
+298,9,Mycelium Might
+299,8,Occhio Interiore
+299,9,Mind’s Eye
+300,8,Sciroppo Sublime
+300,9,Supersweet Syrup
+301,8,Ospitalità
+301,9,Hospitality
+302,8,Catena Tossica
+302,9,Toxic Chain
+303,8,Albergamemorie
+303,9,Embody Aspect
+304,8,Teramorfosi
+304,9,Tera Shift
+305,8,Teraguscio
+305,9,Tera Shell
+306,8,Zeroformazione
+306,9,Teraform Zero
+307,8,Malia Tossica
+307,9,Poison Puppeteer
+10001,9,Mountaineer
+10002,9,Wave Rider
+10003,9,Skater
+10004,9,Thrust
+10005,9,Perception
+10006,9,Parry
+10007,9,Instinct
+10008,9,Dodge
+10009,9,Jagged Edge
+10010,9,Frostbite
+10011,9,Tenacity
+10012,9,Pride
+10013,9,Deep Sleep
+10014,9,Power Nap
+10015,9,Spirit
+10016,9,Warm Blanket
+10017,9,Gulp
+10018,9,Herbivore
+10019,9,Sandpit
+10020,9,Hot Blooded
+10021,9,Medic
+10022,9,Life Force
+10023,9,Lunchbox
+10024,9,Nurse
+10025,9,Melee
+10026,9,Sponge
+10027,9,Bodyguard
+10028,9,Hero
+10029,9,Last Bastion
+10030,9,Stealth
+10031,9,Vanguard
+10032,9,Nomad
+10033,9,Sequence
+10034,9,Grass Cloak
+10035,9,Celebrate
+10036,9,Lullaby
+10037,9,Calming
+10038,9,Daze
+10039,9,Frighten
+10040,9,Interference
+10041,9,Mood Maker
+10042,9,Confidence
+10043,9,Fortune
+10044,9,Bonanza
+10045,9,Explode
+10046,9,Omnipotent
+10047,9,Share
+10048,9,Black Hole
+10049,9,Shadow Dash
+10050,9,Sprint
+10051,9,Disgust
+10052,9,High-rise
+10053,9,Climber
+10054,9,Flame Boost
+10055,9,Aqua Boost
+10056,9,Run Up
+10057,9,Conqueror
+10058,9,Shackle
+10059,9,Decoy
+10060,9,Shield
