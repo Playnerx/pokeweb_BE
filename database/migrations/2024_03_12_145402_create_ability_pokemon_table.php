@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('ability_pokemon', function (Blueprint $table) {
             $table->id();
-            $table->foreignId("pokemon_id")->constrained("pokemons");
+            $table->foreignId("pokemon_id")->constrained("pokemon");
             $table->foreignId("ability_id")->constrained("abilities");
             $table->boolean("is_hidden");
             $table->timestamps();

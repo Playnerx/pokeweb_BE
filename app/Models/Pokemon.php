@@ -12,7 +12,7 @@ class Pokemon extends Model
     use HasFactory;
 
     protected $fillable = [
-        'identifier', 'height', 'weight'
+        'identifier', 'species_id', 'height', 'weight'
     ];
 
     public function species(): BelongsTo {

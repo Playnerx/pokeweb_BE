@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PokemonController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
@@ -21,6 +22,10 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('user', function () {
         return Auth::user();
     });
-    Route::apiResource('users', UserController::class);
+    Route::apiResource('show', UserController::class);
     Route::post('users/{user}/avatar', [UserController::class, 'uploadAvatar']);
 });
+
+Route::get('/pokemon', [PokemonController::class, 'index']);
+Route::get('/pokemon/{id}', [PokemonController::class, 'show']);
+Route::get('/pokemon/all', [PokemonController::class, 'getAllPokemonData']);
