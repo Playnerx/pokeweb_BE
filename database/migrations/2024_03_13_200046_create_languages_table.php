@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('identifier');
             $table->boolean('official');
             $table->integer('order');
+            $table->timestamps();
         });
     }
 

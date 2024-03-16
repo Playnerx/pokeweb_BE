@@ -16,8 +16,9 @@ return new class extends Migration
             $table->string("identifier");
             $table->integer("generation_id");
             $table->integer("evolution_chain_id");
+            $table->integer("gender_rate");
             $table->unsignedBigInteger("evolves_from_species_id")->nullable();
-            /* $table->timestamps(); */
+            $table->timestamps();
             // Togli timestamps se vai a usare insert anziché create nel Seeder.
         });
 

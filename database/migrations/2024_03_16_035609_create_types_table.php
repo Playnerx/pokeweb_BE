@@ -11,13 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('ability_pokemon', function (Blueprint $table) {
+        Schema::create('types', function (Blueprint $table) {
             $table->id();
-            $table->foreignId("pokemon_id")->constrained("pokemon");
-            $table->foreignId("ability_id")->constrained("abilities");
-            $table->boolean("is_hidden");
+            $table->string('identifier');
+            $table->foreignId("generation_id")->constrained("generations");
             $table->timestamps();
-
         });
     }
 
@@ -26,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('ability_pokemon');
+        Schema::dropIfExists('types');
     }
 };

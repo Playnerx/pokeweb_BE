@@ -11,7 +11,7 @@ class Species extends Model
     use HasFactory;
 
     protected $fillable = [
-        'generation_id', 'evolution_chain_id'
+        'generation_id', 'evolution_chain_id', 'gender_rate'
     ];
 
     public function pokemons(): HasMany {

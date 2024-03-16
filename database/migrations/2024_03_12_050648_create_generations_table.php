@@ -11,9 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('versions', function (Blueprint $table) {
+        Schema::create('generations', function (Blueprint $table) {
             $table->id();
-            $table->string('identifier');
+            $table->foreignId("main_region_id")->constrained("regions");
+            $table->string("identifier");
             $table->timestamps();
         });
     }
@@ -23,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('versions');
+        Schema::dropIfExists('generations');
     }
 };

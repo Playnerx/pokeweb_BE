@@ -18,7 +18,8 @@ class VersionSeeder extends Seeder
         while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
             if (!$firstline) {
                 Version::insert([
-                    "identifier" => $data['1']
+                    "id" => $data['0'],
+                    "identifier" => $data['2']
 
                 ]);
             }

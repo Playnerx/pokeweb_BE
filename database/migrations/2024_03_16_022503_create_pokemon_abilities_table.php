@@ -11,10 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('versions', function (Blueprint $table) {
+        Schema::create('pokemon_abilities', function (Blueprint $table) {
             $table->id();
-            $table->string('identifier');
+            $table->foreignId("pokemon_id")->constrained("pokemon");
+            $table->foreignId("ability_id")->constrained("abilities");
+            $table->boolean("is_hidden");
             $table->timestamps();
+
         });
     }
 
@@ -23,6 +26,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('versions');
+        Schema::dropIfExists('pokemon_abilities');
     }
 };
+

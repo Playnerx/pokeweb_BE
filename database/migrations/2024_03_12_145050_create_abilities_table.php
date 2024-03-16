@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('abilities', function (Blueprint $table) {
             $table->id();
             $table->string("identifier");
+            $table->foreignId("generation_id")->constrained("generations");
             $table->timestamps();
         });
     }

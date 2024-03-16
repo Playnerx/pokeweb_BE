@@ -19,10 +19,12 @@ class SpecieSeeder extends Seeder
         while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
             if (!$firstline) {
                 Species::insert([
+                    "id" => $data['0'],
                     "identifier" => $data['1'],
                     "generation_id" => $data['2'],
                     "evolution_chain_id" => $data['4'],
-                    "evolves_from_species_id" => $data['3'] ?: null
+                    "evolves_from_species_id" => $data['3'] ?: null,
+                    "gender_rate" => $data['8']
 
                 ]);
             }

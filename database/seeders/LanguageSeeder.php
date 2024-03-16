@@ -18,6 +18,7 @@ class LanguageSeeder extends Seeder
         while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
             if (!$firstline) {
                 Language::insert([
+                    "id" => $data['0'],
                     "iso639" => $data['1'],
                     "iso3166" => $data['2'],
                     "identifier" => $data['3'],
