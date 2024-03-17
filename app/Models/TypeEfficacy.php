@@ -7,19 +7,19 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
-class Ability extends Model
+class TypeEfficacy extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'identifier'
+        'damage_factor'
     ];
 
-    public function pokemons(): BelongsToMany {
-        return $this->belongsToMany(Pokemon::class);
+    public function damage_type(): BelongsToMany {
+        return $this->belongsToMany(Type::class);
     }
 
-    public function ability_name(): BelongsTo {
-        return $this->belongsTo(AbilityName::class);
+    public function target_type(): BelongsToMany {
+        return $this->belongsToMany(Type::class);
     }
 }

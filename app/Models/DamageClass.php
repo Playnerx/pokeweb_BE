@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
-class Ability extends Model
+class DamageClass extends Model
 {
     use HasFactory;
 
@@ -15,11 +15,7 @@ class Ability extends Model
         'identifier'
     ];
 
-    public function pokemons(): BelongsToMany {
-        return $this->belongsToMany(Pokemon::class);
-    }
-
-    public function ability_name(): BelongsTo {
-        return $this->belongsTo(AbilityName::class);
+    public function stat(): BelongsToMany {
+        return $this->belongsToMany(Stat::class);
     }
 }

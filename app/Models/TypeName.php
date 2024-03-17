@@ -7,19 +7,20 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
-class Ability extends Model
+class TypeName extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'identifier'
+        'name'
     ];
 
-    public function pokemons(): BelongsToMany {
-        return $this->belongsToMany(Pokemon::class);
+    public function type(): BelongsToMany {
+        return $this->belongsToMany(Type::class);
     }
 
-    public function ability_name(): BelongsTo {
-        return $this->belongsTo(AbilityName::class);
+    public function language(): BelongsToMany {
+        return $this->belongsToMany(Language::class);
     }
+    
 }

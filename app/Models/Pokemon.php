@@ -23,4 +23,12 @@ class Pokemon extends Model
     public function abilities(): BelongsToMany {
         return $this->belongsToMany(Ability::class);
     }
+
+    public function types(): BelongsToMany {
+        return $this->belongsToMany(Type::class);
+    }
+
+    public function stats(): BelongsToMany {
+        return $this->belongsToMany(Stat::class);
+    }
 }

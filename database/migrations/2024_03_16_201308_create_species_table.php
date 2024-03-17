@@ -14,22 +14,15 @@ return new class extends Migration
         Schema::create('species', function (Blueprint $table) {
             $table->id();
             $table->string("identifier");
-            $table->integer("generation_id");
-            $table->integer("evolution_chain_id");
+            $table->foreignId("generation_id")->constrained("generations");
+            $table->foreignId("evolution_chain_id")->constrained("evolution_chains");
             $table->integer("gender_rate");
             $table->unsignedBigInteger("evolves_from_species_id")->nullable();
             $table->timestamps();
-            // Togli timestamps se vai a usare insert anziché create nel Seeder.
         });
 
-        /* Schema::table('species', function (Blueprint $table) {
-            $table->unsignedBigInteger("evolves_from_species_id")->nullable();
-        }); */
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
         Schema::dropIfExists('species');
