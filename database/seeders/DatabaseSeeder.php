@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
         \App\Models\User::factory(10)->create();
 
         $this->call([
-            RegionSeeder::class,
+            /* RegionSeeder::class,
             GenerationSeeder::class,
             EvolutionChainSeeder::class,
             SpecieSeeder::class,
@@ -46,7 +46,9 @@ class DatabaseSeeder extends Seeder
             StatNameSeeder::class,
             EvolutionTriggerSeeder::class,
             EvolutionTriggerProseSeeder::class,
-            PokemonEvolutionSeeder::class
+            PokemonEvolutionSeeder::class */
+
+            PokemonDataSeeder::class
         ]);
     }
 }
