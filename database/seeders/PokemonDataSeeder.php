@@ -30,12 +30,15 @@ class PokemonDataSeeder extends Seeder
                     "altezza" => $data['9'],
                     "peso" => $data['10'],
                     "categoria" => $data['11'],
-                    "hpstat" => $data['12'],
-                    "atkstat" => $data['13'],
-                    "defstat" => $data['14'],
-                    "spatkstat" => $data['15'],
-                    "spdefstat" => $data['16'],
-                    "spdstat" => $data['17'],
+                    "gruppo_uova1" => $data['12'],
+                    "gruppo_uova2" => $data['13'],
+                    "hpstat" => $data['14'],
+                    "atkstat" => $data['15'],
+                    "defstat" => $data['16'],
+                    "spatkstat" => $data['17'],
+                    "spdefstat" => $data['18'],
+                    "spdstat" => $data['19'],
+                    "immagine" => $data['20']
                     
                 ]);
             }

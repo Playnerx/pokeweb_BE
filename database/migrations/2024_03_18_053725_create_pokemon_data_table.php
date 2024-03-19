@@ -24,12 +24,15 @@ return new class extends Migration
             $table->decimal('altezza', 4, 2);
             $table->decimal('peso', 5, 2);
             $table->string('categoria');
+            $table->string('gruppo_uova1')->nullable();
+            $table->string('gruppo_uova2')->nullable();
             $table->integer('hpstat');
             $table->integer('atkstat');
             $table->integer('defstat');
             $table->integer('spatkstat');
             $table->integer('spdefstat');
             $table->integer('spdstat');
+            $table->string('immagine')->nullable();
             $table->timestamps();
         });
     }
