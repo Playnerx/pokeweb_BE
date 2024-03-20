@@ -35,6 +35,13 @@ class ImageResource extends JsonResource
             'spatkstat' => $this->spatkstat,
             'spdefstat' => $this->spdefstat,
             'spdstat' => $this->spdstat,
+            'debolezza1' => $this->debolezza1,
+            'debolezza2' => $this->debolezza2,
+            'debolezza3' => $this->debolezza3,
+            'debolezza4' => $this->debolezza4,
+            'debolezza5' => $this->debolezza5,
+            'debolezza6' => $this->debolezza6,
+            'debolezza7' => $this->debolezza7,
             'immagine' => Storage::url($this->immagine)
         ];
     }

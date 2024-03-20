@@ -33,6 +33,13 @@ return new class extends Migration
             $table->integer('spdefstat');
             $table->integer('spdstat');
             $table->string('immagine')->nullable();
+            $table->string('debolezza1')->nullable();
+            $table->string('debolezza2')->nullable();
+            $table->string('debolezza3')->nullable();
+            $table->string('debolezza4')->nullable();
+            $table->string('debolezza5')->nullable();
+            $table->string('debolezza6')->nullable();
+            $table->string('debolezza7')->nullable();
             $table->timestamps();
         });
     }

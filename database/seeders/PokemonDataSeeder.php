@@ -38,7 +38,14 @@ class PokemonDataSeeder extends Seeder
                     "spatkstat" => $data['17'],
                     "spdefstat" => $data['18'],
                     "spdstat" => $data['19'],
-                    "immagine" => $data['20']
+                    "immagine" => $data['20'],
+                    "debolezza1" => $data['21'],
+                    "debolezza2" => $data['22'],
+                    "debolezza3" => $data['23'],
+                    "debolezza4" => $data['24'],
+                    "debolezza5" => $data['25'],
+                    "debolezza6" => $data['26'],
+                    "debolezza7" => $data['27'],
                     
                 ]);
             }
