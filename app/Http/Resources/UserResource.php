@@ -19,6 +19,7 @@ class UserResource extends JsonResource
             'id' => $this->id,
             'username' => $this->username,
             'email' => $this->email,
+            'password' => $this->password,
             'avatar_url' => $this->avatar_url ? Storage::url($this->avatar_url) : '',
             $this->mergeWhen(
                 $this->posts->isNotEmpty() && $request->route()->getName() !== 'users.index',

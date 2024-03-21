@@ -23,6 +23,7 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('user', function () {
         return Auth::user();
     });
+    Route::apiResource('users', UserController::class);
     Route::apiResource('show', UserController::class);
     Route::post('users/{user}/avatar', [UserController::class, 'uploadAvatar']);
 });

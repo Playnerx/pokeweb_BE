@@ -37,7 +37,7 @@ class AuthController extends Controller
             'password' => Hash::make($request->password)
         ]);
 
-        return response()->json(['message' => 'User registered successfully!'], 201);
+        return response()->json(['message' => 'Utente registrato con successo!'], 201);
     }
 
     /**
@@ -47,7 +47,7 @@ class AuthController extends Controller
     {
         if (!Auth::attempt($request->only('email', 'password'))) {
             return response()->json([
-                'message' => 'Invalid credentials', 
+                'message' => 'Campi non validi. Riprova.', 
                 'status' => 401
             ], 401);
         }
