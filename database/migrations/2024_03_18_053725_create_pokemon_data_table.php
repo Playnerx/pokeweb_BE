@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('specie_id');
             $table->string('nome');
-            $table->integer('generazione');
+            $table->string('generazione');
             $table->text('descrizione');
             $table->string('tipo1');
             $table->string('tipo2')->nullable();
