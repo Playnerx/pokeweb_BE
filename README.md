@@ -11,5 +11,5 @@ Tecnologie utilizzate:
 - Laravel;
 - MySQL.
 
-- Stato: Sviluppo in corso.
-- Tempo impiegato: 1 mese.
+Stato: Sviluppo in corso.
+Tempo impiegato: 1 mese.
